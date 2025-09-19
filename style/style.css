@@ -57,11 +57,20 @@
   height: 100%;
 }
 
+.form-input {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
 .log-id {
   display: flex;
   flex-direction: column;
   width: 100%;
   height: 100%;
+}
+.show-password {
+  position: relative;
 }
 
 .log-id > p {
@@ -81,6 +90,20 @@
   border-radius: 6px;
   padding: 4px 10px;
   font-size: 16px;
+}
+.button-eye {
+position: absolute;
+right: 10px;
+bottom: 0;
+border: none;
+outline: none;
+background-color: transparent;
+}
+
+.open-eye {
+  height: 19px;
+  font-size: 19px;
+
 }
 
 .log-atau {
@@ -110,7 +133,6 @@
   border-radius: 10px;
   background-color: #3ecf4c;
   padding: 10px 100px;
-  margin-bottom: 16px;
   text-align: center;
   cursor: pointer;
   font-weight: 700;
