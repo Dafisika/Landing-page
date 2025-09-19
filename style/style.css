@@ -4,30 +4,29 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "poppins"; /
 }
 
 .header-log {
   padding: 12px 120px;
-  height: 50px;
-  width: 100%;
+  height: 100%;
   border: 1px solid #f1f1f1;
 }
 .log-container {
-  background-color: #fffdf3;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: calc(100vh - 50px);
-  width: 100%;
+  padding: 64px 120px;
+  height: 100%;
 }
 
 .log {
-  background-color: #ffffff;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 500px;
+  width: 590px;
+  height: 100%;
   padding: 36px;
   gap: 36px;
   border: 1px solid #f1f1f1;
@@ -40,7 +39,14 @@
   align-items: center;
   gap: 10px;
   width: 100%;
+  height: 100%;
   font-weight: 600;
+  font-size: 32px;
+}
+
+.log-description > p {
+  font-weight: 400;
+  font-size: 16px;
 }
 
 .log-input {
@@ -51,16 +57,11 @@
   height: 100%;
 }
 
-.form-input {
-  display: flex;
-  flex-direction: column;
-  gap: 24px;
-}
-
 .log-id {
   display: flex;
   flex-direction: column;
-  gap: 5px;
+  width: 100%;
+  height: 100%;
 }
 
 .log-id > p {
@@ -75,53 +76,81 @@
   border: 1px solid #f1f1f1;
   border-radius: 6px;
   width: 100%;
-  padding: 10px;
-}
-
-.button {
-  gap: 16px;
+  height: 100%;
+  border: 1px solid #F1F1F1;
+  border-radius: 6px;
+  padding: 4px 10px;
+  font-size: 16px;
 }
 
 .log-atau {
-  background-color: red;
   text-align: center;
   margin-top: 10px;
   margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.log-atau > hr {
+  width: 40%;
+  border: 1px solid #f1f1f1;
 }
 
 .masuk {
-  width: 100%;
+  width: 518px;
+  height: 100%;
   color: white;
   border: none;
   outline: none;
-  border-radius: 7px;
+  border-radius: 10px;
   background-color: #3ecf4c;
   padding: 10px 100px;
   margin-bottom: 16px;
   text-align: center;
   cursor: pointer;
   font-weight: 700;
+  font-size: 16px;
 }
 .daftar {
-  width: 100%;
+  width: 518px;
+  height: 100%;
   color: limegreen;
   border: none;
   outline: none;
-  border-radius: 7px;
-  background-color: #e2fcd9cc;
+  border-radius: 10px;
+  background-color: #E2FCD9CC;
   padding: 10px 100px;
   text-align: center;
   cursor: pointer;
   font-weight: 700;
+  font-size: 16px;
 }
 .masuk-dengan-google {
-  background-color: yellow;
-  width: 100%;
-  border: 1px solid black;
+  width: 518px;
+  height: 42px;
+  border: 1px solid #F1F1F1;
   outline: none;
-  border-radius: 7px;
+  border-radius: 10px;
   background-color: white;
   padding: 10px 100px;
   text-align: center;
   cursor: pointer;
+  font-family: DMSans;
+  font-size: 16px;
+  font-weight: 700;
+  color: #333333AD;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.logo-google {
+width: auto;
+height: 20px;
 }
