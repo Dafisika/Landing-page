@@ -3,30 +3,117 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "poppins";
-  font-family: "DMSans";
 }
 
 .header-dashboard {
   padding: 12px 120px;
-  width: 1440px;
+  width: 100%;
   height: 100%;
   border: 1px solid #f1f1f1;
-  gap: 36px;
 }
+
 .profile {
   display: flex;
   justify-content: space-between;
+  gap: 36px;
   width: 100%;
   height: 100%;
   font-family: DMSans;
   font-weight: 500;
   font-family: 16px;
 }
-.container-dashoard {
+.container-dashboard {
+  background-color: #fffdf3;
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  width: 1440px;
+  width: 100%;
   height: 100%;
   padding: 64px 120px;
   gap: 64px;
+}
+.banner {
+  background: url(../assets/banner.jpg);
+  background-position: center;
+  position: relative;
+  width: 100%;
+  height: 400px;
+  padding: 82px 140px 64px 140px;
+  gap: 24px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.banner > h1 {
+  font-weight: 700;
+  font-size: 48;
+  line-height: 110.00000000000001%;
+  text-align: center;
+}
+.banner > p {
+  font-family: DMSans;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  text-align: center;
+}
+.daftar-banner {
+  padding: 10px 26px;
+  color: white;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  background-color: #3ecf4c;
+  text-align: center;
+  cursor: pointer;
+  font-family: DMSans;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 140%;
+  letter-spacing: 0.2px;
+  gap: 8px;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.content-tittle > h2 {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 110%;
+  color: #222325;
+}
+.content-tittle > p {
+  font-family: DMSans;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  letter-spacing: 0.2%;
+  color: #333333ad;
+}
+.menu-content {
+  display: flex;
+}
+.fiture {
+  padding: 12px 36px 12px 0px;
+  gap: 6px;
+  font-family: DMSans;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  letter-spacing: 0.2%;
+  color: #333333ad;
+}
+.active {
+  color: #f64920;
+}
+.active > hr {
+  width: 52px;
+  height: 6px;
+  border-radius: 10px;
+  background-color: #f64920;
 }
