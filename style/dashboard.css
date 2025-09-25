@@ -117,3 +117,89 @@
   border-radius: 10px;
   background-color: #f64920;
 }
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 384px;
+  height: 100%;
+  border: 1px solid #3a35411f;
+  border-radius: 10px;
+  padding: 20px;
+  gap: 16px;
+}
+.card > img {
+  width: 100%;
+  height: 193px;
+}
+.description {
+  width: 100%;
+  height: 100%;
+  gap: 8px;
+}
+.description > h3 {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 120%;
+  color: #222325;
+}
+.description > p {
+  font-family: DMSans;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  letter-spacing: 0.2%;
+  color: #333333ad;
+}
+.account {
+  display: flex;
+  gap: 10px;
+}
+.account > img {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+}
+.id {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+.id-name {
+  font-family: DMSans;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  letter-spacing: 0.2%;
+  color: #222325;
+}
+.id-status {
+  font-family: DMSans;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  letter-spacing: 0.2%;
+  color: #333333ad;
+}
+.rating {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.rating-star {
+  display: flex;
+  width: 100%;
+  gap: 8px;
+}
+.star {
+  display: flex;
+  width: 18px;
+  height: 18px;
+}
+.review {
+  width: 100%;
+}
+.price {
+  width: 100%;
+  text-align: end;
+}
