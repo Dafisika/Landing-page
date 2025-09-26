@@ -1,0 +1,155 @@
+[
+  {
+    "image": "/assets/cover/card 1.png",
+    "tittle": "Big 4 Auditor Financial Analyst",
+    "description": "Mulai transformasi dengan instruktur profesional, harga yang terjangkau, dan  kurikulum terbaik",
+    "user": {
+      "avatar": "/assets/avatar/Avatar (1).png",
+      "name": "Jenna Ortega",
+      "position": "Senior Accountant",
+      "company": "Gojek"
+    },
+    "rating": {
+      "rating": 3.5,
+      "review": 86
+    },
+
+    "price": 300000
+  },
+  {
+    "image": "/assets/cover/card 2.png",
+    "tittle": "Big 4 Auditor Financial Analyst",
+    "description": "Mulai transformasi dengan instruktur profesional, harga yang terjangkau, dan  kurikulum terbaik",
+    "user": {
+      "avatar": "/assets/avatar/Avatar (2).png",
+      "name": "Jenna Ortega",
+      "position": "Senior Accountant",
+      "company": "Gojek"
+    },
+    "rating": {
+      "rating": 3.5,
+      "review": 86
+    },
+
+    "price": 300000
+  },
+  {
+    "image": "/assets/cover/card 3.png",
+    "tittle": "Big 4 Auditor Financial Analyst",
+    "description": "Mulai transformasi dengan instruktur profesional, harga yang terjangkau, dan  kurikulum terbaik",
+    "user": {
+      "avatar": "/assets/avatar/Avatar (3).png",
+      "name": "Jenna Ortega",
+      "position": "Senior Accountant",
+      "company": "Gojek"
+    },
+    "rating": {
+      "rating": 3.5,
+      "review": 86
+    },
+
+    "price": 300000
+  },
+  {
+    "image": "/assets/cover/card 4.png",
+    "tittle": "Big 4 Auditor Financial Analyst",
+    "description": "Mulai transformasi dengan instruktur profesional, harga yang terjangkau, dan  kurikulum terbaik",
+    "user": {
+      "avatar": "/assets/avatar/Avatar (4).png",
+      "name": "Jenna Ortega",
+      "position": "Senior Accountant",
+      "company": "Gojek"
+    },
+    "rating": {
+      "rating": 3.5,
+      "review": 86
+    },
+
+    "price": 300000
+  },
+  {
+    "image": "/assets/cover/card 5.png",
+    "tittle": "Big 4 Auditor Financial Analyst",
+    "description": "Mulai transformasi dengan instruktur profesional, harga yang terjangkau, dan  kurikulum terbaik",
+    "user": {
+      "avatar": "/assets/avatar/Avatar (5).png",
+      "name": "Jenna Ortega",
+      "position": "Senior Accountant",
+      "company": "Gojek"
+    },
+    "rating": {
+      "rating": 3.5,
+      "review": 86
+    },
+
+    "price": 300000
+  },
+  {
+    "image": "/assets/cover/card 6.png",
+    "tittle": "Big 4 Auditor Financial Analyst",
+    "description": "Mulai transformasi dengan instruktur profesional, harga yang terjangkau, dan  kurikulum terbaik",
+    "user": {
+      "avatar": "/assets/avatar/Avatar (6).png",
+      "name": "Jenna Ortega",
+      "position": "Senior Accountant",
+      "company": "Gojek"
+    },
+    "rating": {
+      "rating": 3.5,
+      "review": 86
+    },
+
+    "price": 300000
+  },
+  {
+    "image": "/assets/cover/card 7.png",
+    "tittle": "Big 4 Auditor Financial Analyst",
+    "description": "Mulai transformasi dengan instruktur profesional, harga yang terjangkau, dan  kurikulum terbaik",
+    "user": {
+      "avatar": "/assets/avatar/Avatar (7).png",
+      "name": "Jenna Ortega",
+      "position": "Senior Accountant",
+      "company": "Gojek"
+    },
+    "rating": {
+      "rating": 3.5,
+      "review": 86
+    },
+
+    "price": 300000
+  },
+  {
+    "image": "/assets/cover/card 8.png",
+    "tittle": "Big 4 Auditor Financial Analyst",
+    "description": "Mulai transformasi dengan instruktur profesional, harga yang terjangkau, dan  kurikulum terbaik",
+    "user": {
+      "avatar": "/assets/avatar/Avatar (8).png",
+      "name": "Jenna Ortega",
+      "position": "Senior Accountant",
+      "company": "Gojek"
+    },
+    "rating": {
+      "rating": 3.5,
+      "review": 86
+    },
+
+    "price": 300000
+  },
+  {
+    "image": "/assets/cover/card 9.png",
+    "tittle": "Big 4 Auditor Financial Analyst",
+    "description": "Mulai transformasi dengan instruktur profesional, harga yang terjangkau, dan  kurikulum terbaik",
+    "user": {
+      "avatar": "/assets/avatar/Avatar (9).png",
+      "name": "Jenna Ortega",
+      "position": "Senior Accountant",
+      "company": "Gojek"
+    },
+    "rating": {
+      "rating": 3.5,
+      "review": 86
+    },
+
+    "price": 300000
+  }
+]
