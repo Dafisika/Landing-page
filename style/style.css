@@ -27,6 +27,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: white;
+
   width: 590px;
   height: 100%;
   padding: 36px;
@@ -97,13 +99,13 @@
   height: 100%;
   border: 1px solid #f1f1f1;
   border-radius: 6px;
-  padding: 4px 10px;
+  padding: 12px 18px;
   font-size: 16px;
 }
 .button-eye {
   position: absolute;
   right: 10px;
-  bottom: 0;
+  bottom: 8px;
   border: none;
   outline: none;
   background-color: transparent;
