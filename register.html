@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>videobelajar</title>
     <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="phone-number-validation/build/css/intlTelInput.css">
 </head>
 
 <body>
@@ -30,8 +31,14 @@
                         <input class="input-id" id="email" type="email">
                     </div>
                     <div class="log-id">
-                        <label for="nomor">No. Hp <span class="required">*</span></label>
-                        <input class="input-id" id="nomor" type="tel">
+                        <label for="no">No. Hp<span class="required">*</span></label>
+                        <div class="country-code">
+                            <input id="phone" type="tel">
+                            <input class=" input-id" id="no" type="tel">
+                        </div>
+
+
+
                     </div>
                     <div class="log-id">
                         <div class="show-password">
@@ -42,13 +49,13 @@
                         </div>
                     </div>
                     <div class="log-id">
-                        <div class="confirm-password">
-                            <label for="confirm-sandi">Konfirmasi Kata Sandi <span class="required">*</span></label>
-                            <input class="input-id" id="confirm-sandi" type="password">
-                            <button class="button-eye" id="button-eye" type="button">
+                        <div class="show-password">
+                            <label for="konfirmasi-sandi">Konfirmasi Kata Sandi <span class="required">*</span></label>
+                            <input class="input-id" id="konfirmasi-sandi" type="password">
+                            <button class="konfirmasi-eye" id="konfirmasi-eye" type="button">
                             </button>
                         </div>
-                        <p>Lupa Password?</p>
+                        <a href="">Lupa Password?</a>
                     </div>
                     <div class="log-button">
                         <button class="masuk">Daftar</button>
@@ -75,6 +82,11 @@
     </div>
     </div>
     <script src="./js/script.js"></script>
+    <script src="phone-number-validation/build/js/intlTelInput.js"></script>
+    <script>
+        let input = document.querySelector("#phone");
+        window.intlTelInput(input, {});
+    </script>
 
 </body>
 
