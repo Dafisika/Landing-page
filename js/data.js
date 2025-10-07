@@ -1,25 +1,34 @@
 async function renderingData() {
-  try {
-    const mainContent = document.getElementById("main-content");
+    try {
+        const mainContent = document.getElementById("main-content");
 
-    const response = await fetch("./../data/article.json");
-    const data = await response.json();
+        const response = await fetch("./../data/article.json");
+        const data = await response.json();
 
-    for (let i = 0; i <= data.length; i++) {
-      mainContent.innerHTML += `
+        for (let i = 0; i <= data.length; i++) {
+            mainContent.innerHTML += `
                 <div class="card">
-                    <img src="${data[i].image}" />
-                    <div class="description">
-                        <h3> ${data[i].tittle} </h3>
-                        <p> ${data[i].description}</p>
-                    </div>
-                    <div class="account">
-                        <img src="${data[i].user.avatar}" />
-                        <div class="id">
-                            <p class="id-name">${data[i].user.name}</p>
-                            <p class="id-status">${
-                              data[i].user.position
-                            } di <span>${data[i].user.company}</span></p>
+                    <div class="card-content">
+                        <div class="card-product-info">
+                            <img src="${data[i].image}" />
+                            <div class="description">
+                                <h3> ${data[i].tittle} </h3>
+                                <p> ${data[i].description}</p>
+                                <div class="account">
+                                    <img src="${data[i].user.avatar}" />
+                                    <div class="id">
+                                        <p class="id-name">${
+                                            data[i].user.name
+                                        }</p>
+                                        <p class="id-status">${
+                                            data[i].user.position
+                                        } di <span>${
+                data[i].user.company
+            }</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="rating">
@@ -96,8 +105,8 @@ async function renderingData() {
                             </div>
                             <div class="review">
                                 <p>${data[i].rating.rating} (${
-        data[i].rating.review
-      })</p>
+                data[i].rating.review
+            })</p>
                             </div>
 
                         </div>
@@ -108,15 +117,24 @@ async function renderingData() {
                     </div>
                 </div>
       `;
+        }
+    } catch (e) {
+        console.log(e);
     }
-  } catch (e) {
-    console.log(e);
-  }
 
-  function formatNumber(number) {
-    if (number >= 1000) {
-      return (number / 1000).toFixed(0) + "K";
+    function formatNumber(number) {
+        if (number >= 1000) {
+            return (number / 1000).toFixed(0) + "K";
+        }
     }
-  }
 }
 renderingData();
+
+const sectionTittles = document.querySelectorAll(".section-title");
+const sectionDesc = document.querySelectorAll(".section-desc");
+
+sectionTittles.forEach((sectionTitle, index) => {
+    sectionTitle.addEventListener("click", () => {
+        sectionDesc[index].classList.toggle("show-section-desc");
+    });
+});
